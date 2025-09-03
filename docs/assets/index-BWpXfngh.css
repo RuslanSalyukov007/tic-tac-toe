@@ -150,11 +150,6 @@ input[type=file] {
     }
     .reset {
         margin-top: 30px;
-    }
-}
-
-@media (max-width: 450px) {
-    .reset {
         padding: 15px 50px;
     }
 }
