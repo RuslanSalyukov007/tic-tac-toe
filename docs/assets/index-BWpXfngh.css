@@ -176,7 +176,7 @@ input[type=file] {
     height: 180px;
     background-color: #022facb7;
     cursor: pointer;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: center
