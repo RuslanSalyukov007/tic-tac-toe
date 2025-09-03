@@ -33,12 +33,9 @@
     &:hover {
         transform: scale(1.1);
     }
-
+    
     @media (max-width: 767px) {
         margin-top: 30px;
-    }
-
-    @media (max-width: 450px) {
         padding: 15px 50px;
     }
 }
