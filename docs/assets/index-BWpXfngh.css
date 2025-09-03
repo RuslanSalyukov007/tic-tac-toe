@@ -145,6 +145,12 @@ input[type=file] {
     transition: all .2s ease-in
 }
 
+@media (max-width: 450px) {
+    .reset {
+        padding: 15px 50px;
+    }
+}
+
 .reset:hover {
     transform: scale(1.1)
 }
@@ -175,11 +181,17 @@ input[type=file] {
     align-items: center;
     justify-content: center
 }
+.boxes img {
+    width: 120px;
+}
 
 @media (max-width: 767px) {
     .boxes {
         width: 150px;
         height: 150px
+    }
+    .boxes img {
+        width: 100px;
     }
 }
 
@@ -188,12 +200,18 @@ input[type=file] {
         width: 120px;
         height: 120px
     }
+    .boxes img {
+        width: 80px;
+    }
 }
 
 @media (max-width: 450px) {
     .boxes {
         width: 100px;
         height: 100px
+    }
+    .boxes img {
+        width: 60px;
     }
 }
 
