@@ -144,6 +144,14 @@ input[type=file] {
     border-radius: 50px;
     transition: all .2s ease-in
 }
+@media (max-width: 767px) {
+    .title {
+        margin-top: 30px;
+    }
+    .reset {
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 450px) {
     .reset {
